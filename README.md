@@ -57,7 +57,6 @@ This is the recommended method for creating an executable on a Linux system.
     venv/bin/python -m PyInstaller --onefile --noconsole \
     --add-data 'data.json:.' \
     --add-data 'favorites.json:.' \
-    --add-data 'study_planner_data.json:.' \
     --add-data 'study_plan.json:.' \
     --add-data 'study_planner_data.json:.' \
     --add-data 'venv/lib/python3.13/site-packages/tkcalendar:tkcalendar' \
